@@ -31,6 +31,9 @@ const NavBar = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
+              <Link href="/products">Products</Link>
+            </li>
+            <li>
               <Link href="/">Dashboard</Link>
             </li>
             <li>
@@ -48,6 +51,9 @@ const NavBar = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/products">Products</Link>
+          </li>
+          <li>
             <Link href="/">Dashboard</Link>
           </li>
         </ul>
@@ -56,7 +62,7 @@ const NavBar = () => {
       <Link href="/cart">
               <FaShoppingCart />
             </Link>
-        <Link href='/login' className="btn">Log in / Registration</Link>
+        <Link href='/login' className="btn btn-primary">Log in / Registration</Link>
       </div>
     </div>
   );
