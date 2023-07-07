@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaPrint, FaRegClock } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-neutral text-neutral-content grid grid-cols-4">
+        <footer className="footer px-24 py-10 bg-neutral text-neutral-content grid grid-cols-4">
   <div>
     <h4 className="text-2xl font-bold">E-Repliq</h4>
   </div> 
